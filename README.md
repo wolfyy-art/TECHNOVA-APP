@@ -47,3 +47,17 @@ TECHNOVA-APP/
 
 Testing
 http://13.222.185.243
+
+1. Clone the Repository
+git clone https://github.com/wolfyy-art/TECHNOVA-APP.git
+cd TECHNOVA-APP
+2. Navigate to Terraform Directory
+cd terraform
+3. Initialize Terraform
+terraform init
+4. Review the Execution Plan
+terraform plan
+5. Apply to Provision Infrastructure
+terraform apply
+
+aws configure
