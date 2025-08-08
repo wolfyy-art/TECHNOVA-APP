@@ -41,11 +41,8 @@ This project includes:
   Folder Structure
 
 TECHNOVA-APP/
-├── Dockerfile # Docker build config
-├── index.js # Main server file
-├── package.json # Dependencies and metadata
-├── terraform/ # Terraform scripts for EC2, IAM, etc.
-└── Jenkinsfile # Jenkins pipeline config
+
+<img width="367" height="135" alt="Screenshot 2025-08-08 152718" src="https://github.com/user-attachments/assets/51f79456-c3df-439c-b00f-a93edeb0c83a" />
 
 Step-by-Step Setup
 
