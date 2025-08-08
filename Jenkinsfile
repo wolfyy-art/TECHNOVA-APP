@@ -21,4 +21,21 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+            emailext(
+                subject: "✅ Deployment Successful",
+                body: "The TECHNOVA app was deployed successfully.",
+                to: 'sarohamayank314@gmail.com'
+            )
+        }
+        failure {
+            emailext(
+                subject: "❌ Deployment Failed",
+                body: "The TECHNOVA app deployment failed. Please check Jenkins logs.",
+                to: 'sarohamayank314@gmail.com'
+            )
+        }
+    }
 }
