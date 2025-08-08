@@ -253,6 +253,8 @@ pipeline {
 }
 
 ```
+<img width="1913" height="883" alt="Screenshot 2025-08-08 151526" src="https://github.com/user-attachments/assets/46043c33-3a94-4dbe-8030-96df22355e86" />
+
 ## 🔐 IAM User and Access
 
 To run Terraform or configure AWS CLI securely, create an IAM user with programmatic access and assign EC2 & VPC full access permissions.
@@ -297,12 +299,14 @@ MIT License
 Testing
 http://13.222.185.243
 ## ✅ Final Output
+<img width="439" height="234" alt="Screenshot 2025-08-08 151629" src="https://github.com/user-attachments/assets/90d35adb-5bb2-4f3a-b48f-7b1034c72db4" />
 
 After successful deployment, visit:
 
 ```
 http://<EC2_PUBLIC_IP>
 ```
+
 
 You should see: `Welcome to TechNova App!`
 
