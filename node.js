@@ -1,5 +1,5 @@
 const http = require('http');
-const port = 80;
+const port = process.env.PORT || 3000;
 
 const requestHandler = (request, response) => {
   response.end('Hello, World from TechNova!');
